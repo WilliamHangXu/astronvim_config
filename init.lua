@@ -17,3 +17,7 @@ end
 
 require "lazy_setup"
 require "polish"
+
+-- The lines below change the highlight color of vim-illuminate.
+vim.cmd("hi IlluminatedWordRead guibg=#485060")
+vim.cmd("hi IlluminatedWordWrite guibg=#485060")
